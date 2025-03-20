@@ -1,12 +1,12 @@
 String Art Guide
 
-Utilise l'outil de Mickael Crum pour exploiter le guide textuel fourni par son programme.
+Utilise l'outil de Mickael Crum pour guider l'utilisateur à travers le fichier d'instructions généré par son programme de string art.
 
 Générateur de String Art en ligne : https://michael-crum.com/string-art-gen/
 
 Code source du générateur : https://github.com/usedhondacivic/string-art-gen
 
-Pour utiliser le guide à partir des fichiers générés sur le site de Mickael Crum : https://michael-crum-s-string-art-guide.netlify.app/
+Outil de guidage interactif : https://michael-crum-s-string-art-guide.netlify.app/
 
 
 
@@ -14,25 +14,52 @@ Pour utiliser le guide à partir des fichiers générés sur le site de Mickael 
 
 Description
 
-String Art Guide est une application web qui permet aux utilisateurs d'exploiter le guide textuel fourni par le générateur de string art de Mickael Crum pour réaliser leurs propres projets de string art. Grâce à ce guide détaillé, l'application facilite le processus créatif en offrant une interface intuitive et interactive.
+String Art Guide est une application web conçue pour exploiter l'outil de Mickael Crum. Elle guide l'utilisateur pas à pas dans la réalisation de projets de string art en utilisant le fichier d'instructions généré par le programme. L'application offre une interface interactive et intuitive pour transformer vos idées en œuvres de string art.
+
+
+---
 
 Fonctionnalités
 
-Chargement de fichiers d'instructions : Importez des fichiers d'instructions pour suivre étape par étape la réalisation d'un projet de string art.
+Gestion des projets
 
-Affichage interactif : Visualisez la couleur actuelle et le clou à connecter grâce à une représentation visuelle du projet.
+Création et sauvegarde : Créez un projet, sauvegardez-le au format JSON et chargez-le ultérieurement.
 
-Suivi de progression : Suivez l'avancement de votre projet en temps réel.
+Réinitialisation : Réinitialisez votre projet pour recommencer à zéro.
 
-Sauvegarde et chargement : Enregistrez vos projets en format JSON et chargez-les ultérieurement pour continuer votre création.
 
-Mode sombre et plein écran : Profitez d'une interface personnalisable pour travailler dans les meilleures conditions.
+Suivi interactif
 
-Minuteur intégré : Gardez un œil sur votre temps de travail avec le minuteur intégré.
+Instructions en temps réel : Visualisez l'instruction courante, la couleur active et le clou à connecter.
 
-Avancement automatique des instructions : Laissez l'application vous guider automatiquement dans l'exécution des étapes.
+Progression : Suivi détaillé du nombre d'instructions et du pourcentage de progression.
 
-Raccourcis clavier : Naviguez rapidement entre les étapes grâce à des raccourcis clavier pratiques.
+Minuterie intégrée : Suivez le temps de travail avec un minuteur affiché.
+
+Modes d'affichage : Activez le mode plein écran pour une immersion totale.
+
+
+Paramètres et contrôle
+
+Avancement automatique : Passez automatiquement à l'instruction suivante.
+
+Contrôle via raccourcis clavier :
+
+Next : Passer à l'étape suivante.
+
+Previous : Revenir à l'étape précédente.
+
+Save / Load : Sauvegarder ou charger un projet.
+
+Fullscreen / Timer : Activer/désactiver le mode plein écran ou la minuterie.
+
+
+
+Gestion des couleurs de fil
+
+Affichage des couleurs : Chaque couleur (en RGB) est affichée avec le nombre de connexions correspondantes.
+
+Détails précis : Répartition détaillée des fils par numéro de clou.
 
 
 
@@ -40,10 +67,29 @@ Raccourcis clavier : Naviguez rapidement entre les étapes grâce à des raccour
 
 Utilisation
 
-L'application utilise le générateur de string art de Mickael Crum et intègre son guide textuel pour faciliter la réalisation de projets créatifs. Pour en savoir plus sur le fonctionnement de l'outil et consulter le guide détaillé, reportez-vous aux liens ci-dessus.
+String Art Guide vous permet de :
+
+Charger un fichier d'instructions généré par l'outil de Mickael Crum.
+
+![Loading screen](./1.jpg)
 
 
----
+Suivre pas à pas les instructions pour réaliser votre projet de string art.
 
-Ce README présente clairement les liens et les informations essentielles en mettant en avant le lien vers l'outil de Mickael Crum, le dépôt GitHub du générateur, et le guide complet de déploiement. Vous pouvez l'adapter en fonction de l'évolution de votre projet.
+![affichage de l'avancement ](./4.jpg)
 
+
+Visualiser en temps réel la progression du projet, la couleur active et le clou cible.
+
+Gérer votre projet via des commandes rapides (sauvegarde, chargement, réinitialisation, etc.) grâce à une interface intuitive.
+
+![Commandes](./3.jpg)
+
+
+Voir quelles couleurs de fils sont nécessaire au projet pour préparer votre matériel.
+
+![Affichage des couleurs](./2.jpg)
+
+Avoir une visualisation dynamique de l'avancement du projet. 
+
+![Visualisation](./5.jpg)
